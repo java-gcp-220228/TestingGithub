@@ -1,6 +1,7 @@
 package com.revature.main;
 
 import com.revature.model.Person;
+import com.revature.testinggit.TestGit;
 
 public class Driver {
 
@@ -17,6 +18,13 @@ public class Driver {
 
         Person p2 = new Person("yea", "Bobby", 15);
         p2.speak();
+
+
+        TestGit testGit = new TestGit();;
+        TestGit git = new TestGit("LOL what?", 300000);
+
+        git.gitSpeak();
+
     }
 
 
